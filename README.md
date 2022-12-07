@@ -8,4 +8,4 @@ For StemGNN;
 4. Run the utils.ipynb in oder to preprocess hal.xlsx within dataset folder.
 5. Run "python main.py --train True --evaluate True --dataset hal --epoch 100 --window_size 28 --horizon 5 --norm_method z_score --train_length 9  --test_length 1"
 
-You might change --horizon to try for different future timestamps at your please. 
+You might change --horizon argument to try for different future timestamps at your please. We have tried 5 days and 10 days in the paper.
